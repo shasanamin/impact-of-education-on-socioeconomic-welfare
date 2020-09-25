@@ -1,0 +1,1 @@
+All excel and csv files should have names that we want column names in processed dataframe to have. First column should contain country names. First row should be Country, Year_NUMBER_x, Year_NUMBER_y etc., i.e., contain headers in this format (processing done under this assumption, although minor hardcoded changes required in process.R to handle a different format).
