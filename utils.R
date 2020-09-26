@@ -1,6 +1,6 @@
 ### utils.R
 # (1) load_files: load files of same format as separate dataframes with same variable name as file name
-# (2) get_table_as_df: plot all independent variables against all dependent variables using desired ggplot functionality
+# (2) get_table_as_df: load table from the web as a dataframe
 # (3) merge_by_country: merge data for particular year from multiple dataframes with country names being the common key
 # (4) add_var_quantiles: add column to dataframe for quantile information (first, second, third, fourth) of some variable of input dataframe
 # (5) t_tests: perform multiple pairwise t-tests based on variable names from dataframe
