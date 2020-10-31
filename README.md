@@ -12,14 +12,13 @@ Sample processed data (obtained using [process.R](process.R)) is available in [d
 Note: While this project focuses on a particular problem, the work may be helpful for many (data science) projects. For example, I have found myself reusing provided utility functions that load multiple files of same format, turn continuous variables to quantiles (categorical), plot multiple 2D plots from array of variables, etc. on multiple instances.
 
 ### Code explanation
-
 (1) process.R: Generate a CSV file containing processed data from multiple sources and formats.
 
 (2) analyze.R: Perform exploratory data analysis and hypothesis testing.
 
 (3) utils.R: Some utility functions.
 
-### Command inputs:
+### Command inputs
 (1) process.R
 -   data_path: path of directory with raw data files
 -   out_dir: path of directory where processed data file would be stored
@@ -32,7 +31,6 @@ Note: While this project focuses on a particular problem, the work may be helpfu
 Note: Constants, e.g. URLs for web scraping and variables for plotting, are currently set inside respective files, as was considered convenient. They may be passed as input and/or read from a separate file instead with only minor changes to relevant files.
 
 ### Example command
-
 ```shell
 $ Rscript process.py "data/data_raw" "data/data_processed" 2019
 ```
