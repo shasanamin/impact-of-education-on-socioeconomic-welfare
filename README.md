@@ -32,11 +32,11 @@ Note: Constants, e.g. URLs for web scraping and variables for plotting, are curr
 
 ### Example command
 ```shell
-$ Rscript process.py "data/data_raw" "data/data_processed" 2019
+$ Rscript process.R "data/data_raw" "data/data_processed" 2019
 ```
 
 ```shell
-$ Rscript analyze.py "data/data_processed/data2019_processed.csv" "eda"
+$ Rscript analyze.R "data/data_processed/data2019_processed.csv" "eda"
 ```
 
 ### Outputs
